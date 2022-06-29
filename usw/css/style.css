@@ -1,0 +1,24 @@
+/* 색상 변수 */
+:root {
+  --suwon-navy: rgb(0,54,112);
+  --suwon-deep-yellow: rgba(233,184,0);
+}
+
+/* header */
+header {}
+header .languages { height: 30px;}
+header .languages .wrap { display: flex; justify-content: right; width: 1200px; margin: 0 auto;}
+header .languages .wrap li {}
+header .languages .wrap li a {color: gray; font-weight: 500; font-size: 15px;margin-left: 10px; }
+header .languages .wrap li a:hover {text-decoration: underline;}
+header nav { background: var(--suwon-navy); height: 75px; text-align: center; line-height: 5px;}
+header nav .wrap { display: inline-flex; justify-content: space-between; align-items: center; width: 1200px; height: 100%;}
+header nav .wrap .logo { width: 100px; height: 42px; background: url(../img/logo.png); background-size: cover; cursor: pointer; }
+header nav .wrap .menu { height: 75px; }
+header nav .wrap .menu ul {display: flex; justify-content: space-between; align-items: center; width: 750px; height: 75px; font-size: 1em; font-weight: 700; }
+header nav .wrap .menu ul li { display: inline-block; color: #fff; cursor: pointer; height: 100%; line-height: 75px;}
+header nav .wrap .search { display: flex; justify-content: space-around; align-items: center; width: 200px; height: 33px; right: 0px; background: #fff; padding: 0; }
+header nav .wrap .search input {height: 80%; padding: 0; border: 0; float: left;}
+header nav .wrap .search input:focus { outline: 3px dotted skyblue;}
+header nav .wrap .search span { background: url(../img/icon_tnbsch.png) var(--suwon-navy) no-repeat; background-size: 55%; background-position: 7px 7px; width: 30px; height: 30px; right: 1px;}
+header nav .wrap .search span:hover { cursor: pointer; }
