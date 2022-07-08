@@ -60,3 +60,42 @@ header nav .wrap .search span:hover { cursor: pointer; }
 .slide__button ul { display: flex; justify-content: space-between; width: 320px;}
 .slide__button ul li button { width: 52px; height: 52px; background: none; border: none; cursor: pointer; }
 .slide__button ul li button img { width: 52px; height: 52px; }
+
+/* 수원대 뉴스 */
+.usw_news { width: 1500px; margin: 0 auto; }
+.usw_news .wrap { width: 1200px; background: #FBFCFE; margin: 0 auto; }
+.usw_news .wrap h2 { position: relative; height: 41px; font-size: 28px; text-align: center; margin-bottom: 30px; }
+.usw_news .wrap h2 a { position: absolute; right: 10px; top: 10px; display: inline-block; background: url(../img/btn_more.png) no-repeat; width: 25px; height: 25px; background-size: contain; }
+.usw_news ul { display: flex; justify-content: space-between; height: 305px; }
+.usw_news .news_list2 { height: 0px; overflow: hidden; transition-property: height; transition-duration: .5s;}
+.usw_news ul li { position: relative; width: 285px; height: 285px;}
+.usw_news ul li a { display: block; height: 100%; }
+.usw_news ul li p { position: absolute; bottom: 0; width: 100%; height: 60px; font-size: 16px; line-height: 57px; text-align: center; color: white; background: black; opacity: 0.6; }
+.usw_news ul li span { display: none; height: 100%; text-align: center; background: rgba(0, 0, 0, 0.5); color: black; }
+.usw_news ul li:hover span { display: block; }
+#news1 { background: url(../img/20220707041232529_6587.0.jpg) no-repeat; background-size: contain;}
+#news2 { background: url(../img/20220707014104818_8452.0.jpg) no-repeat; background-size: contain;}
+#news3 { background: url(../img/20220623032950460_9333.0.jpg) no-repeat; background-size: contain;}
+#news4 { background: url(../img/20220620051555669_891.0.jpg) no-repeat; background-size: contain;}
+#news5 { background: url(../img/20220609103244861_9741.0.jpg) no-repeat; background-size: contain;}
+#news6 { background: url(../img/20220609102602870_5179.0.jpg) no-repeat; background-size: contain;}
+#news7 { background: url(../img/20220609102007859_9664.0.jpg) no-repeat; background-size: contain;}
+#news8 { background: url(../img/20220609101633039_1503.0.jpg) no-repeat; background-size: contain;}
+.news__button { position: relative; }
+.news__button a { display: block; width: 100%; height: 37.5px; border: 1px solid gray; text-align: center; line-height: 37.5px; background: #FBFCFE;}
+.news__button span { position: absolute; display: inline-block; width: 13px; height: 13px; background: url(../img/show_btn.png) no-repeat ; background-size: contain; top: 14px; right: 560px; }
+.news__button a:visited + span { background: yellow }
+
+/* 언론 속의 수원대 */
+.usw_in_press { width: 1200px; margin: 42px auto 0; }
+.usw_in_press .wrap > h2 { position: relative; height: 41px; font-size: 28px; text-align: center; margin-bottom: 30px; }
+.usw_in_press .wrap > h2 a { position: absolute; right: 10px; top: 10px; display: inline-block; background: url(../img/btn_more.png) no-repeat; width: 25px; height: 25px; background-size: contain; }
+.press_list { display: flex; justify-content: space-between; }
+.press_list li { width: 375px; height: 344px; }
+.press_list li a { position: relative; display: block; height: 100%; }
+#press1 { background: url(../img/20220610100811449_6659.0.jpg) no-repeat; background-size: contain;}
+#press2 { background: url(../img/20220609102929671_9885.0.jpg) no-repeat; background-size: contain;}
+#press3 { background: url(../img/20220609102241587_3303.0.jpg) no-repeat; background-size: contain;}
+.press_list h2 { position: absolute; width: 100%; height: 45px; bottom: 80px; border-bottom: 1px solid var(--suwon-deep-yellow); font-size: 19px; font-weight: 800; }
+.press_list p { position: absolute; bottom: 20px; width: 100%; font-size: 17px; text-align: left; }
+.press_list li:nth-child(2) p { bottom: 0; }

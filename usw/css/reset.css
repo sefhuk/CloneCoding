@@ -1,4 +1,5 @@
 /* 기본 초기화 */
+html { background: #FBFCFE; }
 body { margin: 0 auto;}
 h1, h2, h3, div, a, p, ul, li, span { color : black; padding: 0; margin: 0; }
 a { text-decoration: none;} 
