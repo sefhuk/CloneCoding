@@ -31,7 +31,6 @@ header nav .wrap .menu > ul > li { position: relative; display: inline-block; co
 .menu1_list .first { height: 60%; }
 .menu1_list .second { height: 35%; margin-top: 25px;}
 .menu1_list > div div { width: 18%; }
-/* .menu1_list > div ul { height: 100%; } */
 .menu1_list > div ul li { line-height: 150%; height: 25px; text-align: left; font-size: 14px; padding: 3px 0;}
 .menu1_list > div ul li a { color: #666;}
 .menu1_list > div ul li:first-child a:hover { text-decoration: none;}
@@ -99,3 +98,27 @@ header nav .wrap .search span:hover { cursor: pointer; }
 .press_list h2 { position: absolute; width: 100%; height: 45px; bottom: 80px; border-bottom: 1px solid var(--suwon-deep-yellow); font-size: 19px; font-weight: 800; }
 .press_list p { position: absolute; bottom: 20px; width: 100%; font-size: 17px; text-align: left; }
 .press_list li:nth-child(2) p { bottom: 0; }
+
+/* 학교 공지 및 학사일정 */
+.notice { width: 1200px; margin: 80px auto 0; }
+.notice .wrap { display: flex; justify-content: space-between; width: 100%; }
+.notice .univ_notice { position: relative; width: 760px; border-bottom: 1px solid gray; overflow-x: hidden; }
+.notice .univ_notice > ul { display: inline-flex; justify-content: space-between; }
+.notice .univ_notice > ul > li { width: 104px; height: 46px; text-align: center; border-bottom: 1px solid black; }
+.notice .univ_notice > ul > li > a { display:block; width: 100%; height: 100%; font-size: 16px; white-space: nowrap; line-height: 46px; } 
+.notice .univ_notice > ul > li:nth-child(6) > a { font-size: 15px; } 
+.notice .univ_notice > ul > li > a:focus { color: gray; }
+.notice .univ_notice .more { position: absolute; display: inline-block; width: 25px; height: 25px;  background: url(../img/btn_more.png) no-repeat; background-size: contain; top: 10px; left: 735px; }
+.notice__list { display: flex; width: 5320px;}
+.notice__list ul { width: 760px; }
+.notice__list ul li { height: 43px; line-height: 43px; padding: 3px 0 3px 15px; }
+.notice__list ul li a { display: flex; justify-content: space-between; width: 710px; border-bottom: 1px dotted gray; }
+.notice__list ul li:last-child a { border: none; }
+.notice__list ul li a p { font-size: 0.8vw; }
+.notice__list ul li a p:first-child { width: 103px; }
+.notice__list ul li a p:last-child { width: 650px; }
+.univ_skedule { width: 400px; }
+.univ_skedule h2 { position: relative; font-size: 16px; height: 21px; padding: 13px 0; border-bottom: 1px solid black; }
+.univ_skedule h2 a { position: absolute; display: inline-block; width: 25px; height: 25px; background: url(../img/btn_more.png) no-repeat; background-size: contain; right: 0px; }
+.univ_skedule ul { height: 243px; border-bottom: 1px solid gray;}
+.univ_skedule ul li { height: 20%; padding: 15px 0; border-bottom: 1px dotted gray; }

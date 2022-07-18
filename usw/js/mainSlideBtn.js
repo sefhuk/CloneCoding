@@ -53,7 +53,7 @@ mainPrevBtn.addEventListener("click", () => {
 }); 
 
 // 자동 슬라이드 재생 버튼
-let autoSlide = setInterval(nextPage, 2500);
+let autoSlide = setInterval(nextPage, 8000);
 
 mainPlayBtn.addEventListener("click", () => {
     if(!intervalState) {
